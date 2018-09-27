@@ -19,6 +19,12 @@ public class CreateAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 
-        
+        wireWidgets();
+
+
+    }
+
+    private void wireWidgets() {
+        Create = findViewById(R.id.button_createAccount_create);
     }
 }
